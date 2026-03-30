@@ -1,0 +1,46 @@
+CHAT SOCIAL MONGODB PROJECT - USAGE GUIDE
+
+1. Start MongoDB Shell:
+   mongosh
+
+2. Load the project script:
+   load("chat_social_project.js")
+
+--------------------------------------------------
+
+AVAILABLE FUNCTIONS
+
+1. Add User
+   addUser("UserName")
+
+2. Send Message
+   sendMessage("senderId", "receiverId", "Your message")
+
+3. View Chat Between Two Users
+   viewChat("userId1", "userId2")
+
+4. Follow User
+   followUser("userId", "followUserId")
+
+5. Get Following List
+   getFollowing("userId")
+
+6. Delete Message
+   deleteMessage("messageId")
+
+7. Delete User
+   deleteUser("userId")
+
+--------------------------------------------------
+
+NOTES
+
+- Replace userId and messageId with actual ObjectId values
+- Use ObjectId("id") format if needed
+- Ensure users exist before sending messages
+- Messages cannot be empty
+- A user cannot follow themselves
+
+--------------------------------------------------
+
+END OF FILE
