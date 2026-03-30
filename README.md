@@ -12,8 +12,8 @@ chat-social-mongodb/
 │ └── chat_social_project.js
 │
 └── resources/
-├── usage.txt
-└── sample-data.txt
+  ├── usage.txt
+  └── sample-data.txt
 ```
 
 ---
