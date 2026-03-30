@@ -4,7 +4,7 @@ Simple real-time chat &amp; social system using MongoDB
 ---
 
 ## 📁 Project Structure  
-'''
+```
 chat-social-mongodb/
 │
 ├── README.md
@@ -14,7 +14,7 @@ chat-social-mongodb/
 └── resources/
 ├── usage.txt
 └── sample-data.txt
-'''
+```
 
 ---
 
