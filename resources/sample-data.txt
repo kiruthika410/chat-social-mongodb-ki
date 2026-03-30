@@ -1,0 +1,54 @@
+SAMPLE DATA FOR TESTING
+
+--------------------------------------------------
+
+USERS
+
+User 1:
+ObjectId("69c16c06c00b3b8189267611")
+Name: Jack
+
+User 2:
+ObjectId("69c16c06c00b3b8189267612")
+Name: Alex
+
+--------------------------------------------------
+
+SAMPLE OPERATIONS
+
+1. Add New User
+   addUser("John")
+
+2. Send Message
+   sendMessage("69c16c06c00b3b8189267611", "69c16c06c00b3b8189267612", "Hello Ram!")
+
+3. View Chat
+   viewChat("69c16c06c00b3b8189267611", "69c16c06c00b3b8189267612")
+
+4. Follow User
+   followUser("69c16c06c00b3b8189267611", "69c16c06c00b3b8189267612")
+
+5. Get Following List
+   getFollowing("69c16c06c00b3b8189267611")
+
+6. Delete Message
+   deleteMessage("MESSAGE_ID_HERE")
+
+7. Delete User
+   deleteUser("USER_ID_HERE")
+
+--------------------------------------------------
+
+EXPECTED OUTPUT
+
+- "User added"
+- "Message sent"
+- Chat messages printed in order
+- "Followed user"
+- Following list displayed
+- "Message deleted"
+- "User deleted"
+
+--------------------------------------------------
+
+END OF FILE
